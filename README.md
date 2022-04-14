@@ -6,6 +6,8 @@
 
 <!--* Simple Math -->
 
+### Simple Math
+
 [Ex-2.1 Sum of lowest numbers](./Ex-2.1.js)
 
 [Ex-2.2 One and Zero - Binary](./Ex-2.2.js)
@@ -22,17 +24,23 @@
 
 <!--* Math In Story -->
 
+### Math In Story
+
 [Ex-3.1 Growth Of population](./Ex-3.1.js)
 
 [Ex-3.2 People on the Bus](./Ex-3.2.js)
 
 <!--* Advanced Math -->
 
+### Advanced Math
+
 [Ex-4.1 Fibonacci](./Ex-4.1.js)
 
 [Ex-4.2 Tribonacci](./Ex-4.2.js)
 
 <!--* Basic Iteration Logic -->
+
+### Basic Iteration Logic
 
 [Ex-5.1 trimming string](./Ex-5.1.js)
 
@@ -50,6 +58,8 @@
 
 <!--* Advanced Iteration Logic -->
 
+### Advanced Iteration Logic
+
 [Ex-6.1 Mumbling](./Ex-6.1.js)
 
 [Ex-6.2 Counting Duplicates](./Ex-6.2.js)
@@ -59,5 +69,7 @@
 [Ex-6.4 isogram](./Ex-6.4.js)
 
 <!--* Implement Functionality -->
+
+### Implement Functionality
 
 [Ex-7.1 Implement The Following JS Methods](./Ex-7.1.js)
