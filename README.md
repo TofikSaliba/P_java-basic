@@ -1,3 +1,3 @@
 # weekend 3, java basics
 
-[Ex-1.1 Yes or No](./ex-1.1.js)
+[Ex-1.1 Yes or No](./Ex-1.1.js)
