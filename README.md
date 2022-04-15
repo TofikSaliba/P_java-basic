@@ -1,10 +1,8 @@
 # weekend 3, java basics
 
-<!--* Basic -->
+### Basic
 
 [Ex-1.1 Yes or No](./Ex-1.1.js)
-
-<!--* Simple Math -->
 
 ### Simple Math
 
@@ -22,23 +20,17 @@
 
 [Ex-2.7 Basic Math](./Ex-2.7.js)
 
-<!--* Math In Story -->
-
 ### Math In Story
 
 [Ex-3.1 Growth Of population](./Ex-3.1.js)
 
 [Ex-3.2 People on the Bus](./Ex-3.2.js)
 
-<!--* Advanced Math -->
-
 ### Advanced Math
 
 [Ex-4.1 Fibonacci](./Ex-4.1.js)
 
 [Ex-4.2 Tribonacci](./Ex-4.2.js)
-
-<!--* Basic Iteration Logic -->
 
 ### Basic Iteration Logic
 
@@ -56,8 +48,6 @@
 
 [Ex-5.7 shortest words](./Ex-5.7.js)
 
-<!--* Advanced Iteration Logic -->
-
 ### Advanced Iteration Logic
 
 [Ex-6.1 Mumbling](./Ex-6.1.js)
@@ -67,8 +57,6 @@
 [Ex-6.3 organize strings](./Ex-6.3.js)
 
 [Ex-6.4 isogram](./Ex-6.4.js)
-
-<!--* Implement Functionality -->
 
 ### Implement Functionality
 
