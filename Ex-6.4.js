@@ -10,6 +10,8 @@ const isogram = (str) => {
   let presence = "",
     newText = str.toLowerCase();
   for (let char of newText) {
+    //* encountering any char for the first time will add it to presence variable,
+    //* encountering the char again will return false
     if (presence.indexOf(char) === -1) {
       presence += char;
     } else {

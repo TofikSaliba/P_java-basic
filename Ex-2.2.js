@@ -12,6 +12,7 @@
 //? Testing: [1, 0, 1, 1] ==> 11
 //? However, the arrays can have varying lengths, not just limited to 4.
 
+//* result is the sum of each digit 0 or 1 multiplied by 2 to the power of its index starting from 0 from left to right
 const OneAndZero = (binary) => {
   let sum = 0,
     length = binary.length - 1;

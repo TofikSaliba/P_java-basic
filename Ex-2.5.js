@@ -7,6 +7,7 @@
 //? summation(8) -> 36
 //? 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8
 
+//* just used the arethmetic sequence sum of elements formula.
 const Summation = (num) => {
   return (num / 2) * (num + 1);
 };

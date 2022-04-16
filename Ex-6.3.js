@@ -19,6 +19,7 @@ function organizeStrings2(s1, s2) {
   let presence = "",
     newText = (s1 + s2).toLowerCase();
   for (let char of newText) {
+    //* adds only first time occurances of chars, no repeats
     if (presence.indexOf(char) === -1) {
       presence += char;
     }

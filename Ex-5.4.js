@@ -15,6 +15,8 @@ const toWeirdCase = (str) => {
     .split("")
     .map((char) => {
       if (char === " " && counter % 2 === 0) {
+        //* the idea of counter is to whenevr we encout a space and its in even index..
+        //* to make sure the letter after it is capitalized and flip the capitalizing based on either odd or even index
         counter += 2;
         return char;
       }

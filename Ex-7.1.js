@@ -31,6 +31,7 @@ Array.prototype.myMap = function (callBackFunc) {
 Array.prototype.myfilter = function (callBackFunc) {
   const newArr = [];
   for (let i = 0; i < this.length; i += 1) {
+    //* check to see if the indexes exist
     if (this.hasOwnProperty(i)) {
       if (callBackFunc(this[i], i, this)) {
         newArr.push(this[i]);

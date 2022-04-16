@@ -17,8 +17,10 @@ const CountDuplicates = (str) => {
     counted = "",
     newText = str.toLowerCase();
   for (let char of newText) {
+    //* presence stores the first occurance of each char
     if (presence.indexOf(char) === -1) {
       presence += char;
+      //* counted adds second occurance of chars only, no more, to not count any char more than once
     } else if (counted.indexOf(char) === -1) {
       counted += char;
     }

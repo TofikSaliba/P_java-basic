@@ -26,21 +26,27 @@ function tribonacci(signature, n) {
   return res;
 }
 
-console.log(tribonacci([1, 1, 1], 12));
+console.log("\ntribonacci:", tribonacci([1, 1, 1], 12));
 
 //! bonus, i have already solved Xbonacci on Code Wars that can take any random length of a signature and returns the seqeunce.
 function Xbonacci(signature, n) {
   let size = signature.length,
     temp = 0;
   const res = [...signature];
+  //* this first for is entered only if n is greater than the signature length
   for (let i = size; i < n; i++) {
+    //* this second for is to sum every next element in the sequence
     for (let j = i; j < i + size; j++) {
       temp += res[j - size];
     }
     res.push(temp);
     temp = 0;
   }
+  //* cause otherwise we have our elements and need to return n of them
+  if (n < size) {
+    res.splice(n);
+  }
   return res;
 }
 
-console.log(Xbonacci([1, 2, 2, 4, 5], 18));
+console.log("\nXbonacci:", Xbonacci([1, 2, 2, 4, 5], 9));
